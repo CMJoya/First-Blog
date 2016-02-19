@@ -1,0 +1,10 @@
+Understanding the purpose of the Request/Response Cycle is useful because it allows us to follow the flow through the App.
+Ruby on Rails are many times form based Apps. In a way, the App gives the user a form to submit their information. In turn, 
+it stores that data in a Database and the following is a description of how the process works. Essentially, the Router 
+receives the users requested information. Then delegates it to the Controller's Action. The Controller receives the request
+from the Router. My interpretation of the Controller is that it is the brains of the operation considering that it does a lot
+of the work for you to allow the user to view the HTML output. That work entails the Controller delegating the user's request 
+to the Model and to the View. Ultimately, gathering the Model and the Views information and rendering it to the user to display 
+the HTML. This is a general explanation of what takes place in the Request/Response Cycle. Much more information can be found 
+to further explain such an important process between user interaction and application. 
+  
